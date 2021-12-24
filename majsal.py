@@ -6,7 +6,6 @@ print("write file path for the image")
 img = input()
 
 image = cv2.imread(img)
- 
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
